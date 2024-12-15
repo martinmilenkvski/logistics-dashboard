@@ -1,0 +1,46 @@
+{
+  "containers": [
+    {
+      "id": 1,
+      "bookingId": "AX123",
+      "origin": "New York",
+      "destination": "Los Angeles",
+      "status": "In Transit"
+    },
+    {
+      "id": 2,
+      "bookingId": "BY456",
+      "origin": "Chicago",
+      "destination": "Miami",
+      "status": "At Origin Port"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "AX123",
+      "customerId": "12345",
+      "containerId": 1,
+      "date": "2024-12-15"
+    },
+    {
+      "id": "BY456",
+      "customerId": "67890",
+      "containerId": 2,
+      "date": "2024-12-16"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Confirm booking for Container #AX123",
+      "dueTime": "10:00 AM",
+      "status": "Not Started"
+    },
+    {
+      "id": 2,
+      "title": "Schedule pickup for Container #BY456",
+      "dueTime": "11:00 AM",
+      "status": "In Progress"
+    }
+  ]
+}
